@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>Registration form</title>
+</head>
+
+<body>
+    <h1>
+        Register
+    </h1>
+    <form>
+        <p>
+            <div>
+                <label for="username">First Name:</label>
+                <input name ="username" id="username" type="text">
+                <label for="last">Last Name:</label>
+                <input name ="last" id="last" type="text">
+            </div>
+        </p>
+
+        <p>
+            <div>
+                <label>Male:<input name="Gender" type="radio" value="Male"></label>
+                <label>Female:<input name="Gender" type="radio" value="Female"></label>
+                <label>Others:<input name="Gender" type="radio" value="Others"></label>
+            </div>
+        </p>
+
+        <p>
+            <div>
+                <label for="mail">Email:</label>
+                <input id="mail" type="email">
+                <label for="password">Password:</label>
+                <input id="password" type="password">
+            </div>
+        </p>
+
+        <p>
+            <div>
+                <label>Birthday:
+                    <select name="Month">
+                        <!-- below option is used as placeholder for dopdown -->
+                        <option value="" disabled selected hidden>Month</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+
+                    <select name="Day">
+                        <!-- below option is used as placeholder for dopdown -->
+                        <option value="" disabled selected hidden>Day</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+
+                    <select name="Year">
+                        <!-- below option is used as placeholder for dopdown -->
+                        <option value="" disabled selected hidden>Year</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                    </select>
+                </label>
+            </div>
+        </p>
+
+
+        <div>
+            <label> I agree to the terms and condition:<input type="checkbox" required></label>
+        </div>
+        <p> <button>Submit</button></p>
+       
+    </form>
+
+</body>
+
+</html>

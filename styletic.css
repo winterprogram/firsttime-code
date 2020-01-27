@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    /* background: blanchedalmond; */
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+/* table{
+    width: 100px;
+    height: 100px;
+} */
+td:hover {
+    border: 1px solid grey;
+}
+
+.vert{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.hh{
+    border-bottom: 1px solid black;
+}
+
+.hr{
+    border-bottom: 1px solid black;
+}
+
+#gt{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}

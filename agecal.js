@@ -24,12 +24,8 @@ let days = (byear, tyear) => {
             f = e.length;
         }
     }
-    console.log(c);
-    console.log(f);
-
    // find no. of days
      let nodays = (c * leapY) + (f * normalY);
-
      return nodays;
 }
 

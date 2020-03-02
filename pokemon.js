@@ -4120,7 +4120,7 @@ let pokemoneve = (eve) => {
 };
 
 
-//let b = console.log(pokemoneve("Bulbasaur"))
+let b = (pokemoneve("Dratini"))
 
 // Write a function that take a “Weakness” as an input and gives the names of all pokemon who have that Weakness. (check the weakness array in the dataset)
 
@@ -4142,4 +4142,4 @@ let weak = (we) => {
     // return r;
 }
 
-let gh = (weak("Fire"))
+// let gh = (weak("Fire"))
